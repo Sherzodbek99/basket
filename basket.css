@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color:#1d3557;
+    text-align: center;
+}
+
+/*
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Silkscreen', cursive;
+    "Imperial Red":"e63946",
+    "Honeydew":"f1faee",
+    "Powder Blue":"a8dadc",
+    "Celadon Blue":"457b9d",
+    "Prussian Blue":"1d3557"}
+
+*/
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin:50px auto 50px auto;
+    padding: 0 270px;
+    background-image: url("images/b2.jpg");
+    background-size: 100%;
+    width: 45vw;
+    height: 40vw;
+    border-radius: 40px;
+}
+
+.home , .guest {
+    width: 22vw;
+    height: 18vw;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin: 0 40px;
+}
+
+h3 {
+    margin: 40px 0 30px 0;
+    text-shadow: 0 0 1px black;
+    font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    padding: 20px 30px;
+    font-size: 6vw;
+    color: rgb(235, 210, 210);
+    background-color: #1d3557;
+    border: 5px solid #9AABD8;
+    border-radius: 40px;
+}
+
+.back {
+    width: 18vw;
+    height: 18vw;
+    background-color: #1d3557;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.score {
+    font-family: 'Silkscreen', cursive;
+    font-size: 10vw; 
+    margin: auto auto auto auto;
+    padding-bottom: 25px;
+    color:rgb(235, 210, 210)
+    
+}
+
+#btns {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.btn {
+    background-color: #1d3557;
+    width: 5vw;
+    height: 5vw;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 10px;
+    color: #9AABD8;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.5vw;
+    
+    
+}
+
+button:hover {
+    background: #9AABD8;
+    color: rgb(235, 210, 210);
+}
+
+.vl {
+    border-left: 10px solid #1d3557;
+    height: 40vw;
+
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  .new {
+    text-shadow: 0 0 1px black;
+    font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    padding: 30px 50px;
+    font-size: 2vw;
+    color: rgb(235, 210, 210);
+    background-color: #1d3557;
+    border: 5px solid #9AABD8;
+    border-radius: 40px;
+    margin-top: -30px;
+  }

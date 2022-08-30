@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Score-board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="basket.css">
+</head>
+<body>
+        
+        <div class="container">
+            <div class="home">
+                <h3 id="leadh">HOME</h3>
+                <div class="back">
+                    <p class="score" id="home">0</p>
+                </div>
+                <div class="btns">
+                    <button class="btn" onclick="plusOneH()">+1</button>
+                    <button class="btn" onclick="plusTwoH()">+2</button>
+                    <button class="btn" onclick="plusThreeH()">+3</button>
+                </div>
+            </div>
+            <div class="vl"></div>
+            <div class="guest">
+                <h3 id="leadg">GUEST</h3>
+                <div class="back">
+                    <p id="guest" class="score">0</p>
+                </div>
+                <div id="btns">
+                    <button class="btn" onclick="plusOneG(), leader()">+1</button>
+                    <button class="btn" onclick="plusTwoG()">+2</button>
+                    <button class="btn" onclick="plusThreeG()">+3</button>
+                </div>
+            </div>
+        </div>
+        
+        <button class="new" id="new" onclick="newGame()">New Game</button>
+
+        <script src="basket.js"></script>
+    
+</body>
+</html>
